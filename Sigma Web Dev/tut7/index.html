@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="post">
+        <label for="username">Enter your roll number</label>
+        <input type="text" id="username" name="username" placeholder=" Roll number" autofocus>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="join" name="join" value="yes">
+            <label for="join">Join the Gang</label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your Perspective</label>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

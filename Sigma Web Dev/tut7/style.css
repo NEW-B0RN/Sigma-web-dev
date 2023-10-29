@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgba(212, 212, 206, 0.669);
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 10cm;
+    text-rendering: geometricPrecision;
+}
+
+form{
+    text-align: center;
+    background-color: #ffffff84;
+    margin: 10px;
+    padding: 5cm;
+    border-radius: 1cm;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);;
+    max-width: auto;
+    border-style: ridge;
+}
+
+div{
+    margin: 10px;
+}
+
+label{
+    font-size: 25px;
+    text-align: left;
+    text-justify: auto;
+    display: block;
+}
+button{
+    background-color: #ffffff84;
+    border-radius: 1cm;
+    border: none;
+    font-size: 35px;
+    padding: 20px;
+    transition: .3s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ffffff72;
+    font-size: 55px;
+    border-radius: 5cm;
+}
+
+input[type="text"] {
+    border-radius: 15px; /* Adjust the border-radius as desired */
+    font-size: 25px; /* Adjust the font size to match the label */
+    vertical-align: middle; /* Align the input vertically with the label */
+}
+
+/* Style radio buttons as empty circles by default */
+input[type="radio"] {
+    display: none; /* Hide the default radio input */
+}
+
+input[type="radio"] + label::before {
+    content: ''; /* No content by default, making it an empty circle */
+    display: inline-block;
+    width: 20px; /* Set the width and height as desired for the empty circle */
+    height: 20px;
+    border: 1px solid #000; /* Border style for the empty circle */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Style when the radio is checked */
+input[type="radio"]:checked + label::before {
+    content: '\2713'; /* Unicode checkmark character */
+    background-color: #00f; /* Change the background color when checked */
+    color: #fff; /* Change the color of the checkmark */
+}
+
+/* Style when hovering over the label */
+input[type="radio"] + label:hover::before {
+    background-color: #ccc; /* Change the background color on hover */
+    border-color: #999; /* Change the border color on hover */
+}
