@@ -1,0 +1,49 @@
+/* Reset some default styles for consistency */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Style individual sections as desired */
+#section1 {
+    background-color: #f0f0f0;
+}
+
+#section2 {
+    background-color: #e0e0e0;
+}
+
+#section3 {
+    background-color: #d0d0d0;
+}
