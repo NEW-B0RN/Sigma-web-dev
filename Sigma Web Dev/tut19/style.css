@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+p{
+    font-family: 'Agbalumo' ,Georgia, Times, serif;
+    font-style: oblique;
+    line-height: 40px;
+}
+h1{
+    font-weight: 9999;
+    color:#3c763d;
+    text-align: center;
+}
+h2{
+    text-transform: capitalize;
+    color:blueviolet;
+    text-decoration: overline;
+    text-decoration-thickness: 10px;
+    text-indent: 45px;
+    text-overflow: ellipsis;
+}

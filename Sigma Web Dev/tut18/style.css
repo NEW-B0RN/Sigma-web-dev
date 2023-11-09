@@ -1,6 +1,16 @@
 .Box{
     background-color: rgb(255, 148, 148);
 }
-*{   margin: 0px;
-    padding: 0px;
+
+.Box1{
+    background-color: aqua;
+    border: .1cm;
+    border-radius: 10ch;
+    border-color: rgb(0, 112, 74);
+    height: 200px;
+    width: 200px;
+    text-align:center;
+}
+*{   margin: 10px;
+    padding: 10px;
 }
